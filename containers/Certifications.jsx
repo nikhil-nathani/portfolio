@@ -6,7 +6,7 @@ import { Fade } from "react-reveal";
 
 const Certifications = () => {
 	return (
-		<section className="section section-lg">
+		<section className="">
 			<Container>
 				<Fade bottom duration={1000} distance="40px">
 					<div className="d-flex p-4">

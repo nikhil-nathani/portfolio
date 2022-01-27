@@ -34,7 +34,7 @@ const CertificationCard = ({ data }) => {
                 href={data.link}
                 rel="noopener"
                 style={{
-                  fontSize: 10,
+                  fontSize: 12,
                   textTransform: "none",
                   justifyContent: "center",
                   justifyItems: "center",

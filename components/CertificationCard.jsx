@@ -18,7 +18,7 @@ const CertificationCard = ({ data }) => {
                 justifyItems: "center",
               }}
             >
-              <Image src={Images.freeCodeCamp}></Image>
+              <Image src={data.image}></Image>
             </div>
             <div className="pl-4">
               <h5

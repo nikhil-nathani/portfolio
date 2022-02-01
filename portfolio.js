@@ -1,5 +1,5 @@
 import emoji from "react-easy-emoji";
-
+import Images from "./Assets/Images"
 export const greetings = {
 	name: "Nikhil Nathani",
 	title: "Hi, I'm Nikhil",
@@ -144,10 +144,17 @@ export const educationInfo = [
 export const experience = [
 
 	{
-		role: "Software Engineer Intern",
+		role: "Front End Intern",
 		company: "Selleri",
 		companylogo: "/img/icons/common/selleriLogo.png",
-		date: "June 2021 – Present",
+		date: "June 2021 – December 2021",
+		desc: "Worked together with the software engineers, quality assurance engineers, and front end engineers. Expand features, refine code and improve processes, producing smoother operations and enhancing user engagement. Designing frontend within object-oriented Javascript frameworks like React.js and React Native.",
+	},
+	{
+		role: "Junior Front End Developer",
+		company: "Selleri",
+		companylogo: "/img/icons/common/selleriLogo.png",
+		date: "January 2022 – Present",
 		desc: "Worked together with the software engineers, quality assurance engineers, and front end engineers. Expand features, refine code and improve processes, producing smoother operations and enhancing user engagement. Designing frontend within object-oriented Javascript frameworks like React.js and React Native.",
 	},
 ];
@@ -167,6 +174,12 @@ export const certifications = [
 		name: "JavaScript Algorithms and Data Structures",
 		link:
 			"https://www.freecodecamp.org/certification/fcca071248a-2b19-441c-b6fd-faa7f1caf501/javascript-algorithms-and-data-structures",
+			image:Images.freeCodeCamp,
 	},
+	{
+		name:"The Fundamentals Of Digital Marketting",
+		link:"https://drive.google.com/file/d/1sNN0c3CgU728bmP4EbU4WBZ53cQyYdsq/view?usp=sharing",
+		image:Images.google,
+	}
 
 ];
